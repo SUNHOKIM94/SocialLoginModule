@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DmQuery>
+    <sqlItem>
+        <sqlDesc>[소셜로그인] 구글 아이디 조회</sqlDesc>
+        <sqlType>R</sqlType>
+        <sqlId>com.ubintis.boot.app.social.login.dao.find.google.user.id</sqlId>
+        <sqlVal>
+            <![CDATA[
+            SELECT USER_ID
+            FROM UBI5_SOCIAL
+            WHERE GOOGLE_ID = #social_id#
+			]]>
+        </sqlVal>
+    </sqlItem>
+
+    <sqlItem>
+        <sqlDesc>[소셜로그인] 사용자 아이디 조회</sqlDesc>
+        <sqlType>R</sqlType>
+        <sqlId>com.ubintis.boot.app.social.login.dao.find.social.id</sqlId>
+        <sqlVal>
+            <![CDATA[
+            SELECT USER_ID
+            FROM UBI5_USER
+            WHERE USER_ID = #user_id#
+			]]>
+        </sqlVal>
+    </sqlItem>
+</DmQuery>

@@ -1,0 +1,728 @@
+[2025-02-05 11:47:50:040][           main] 4176 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 4176 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 11:47:50:044][           main] 4176 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 11:47:54:792][           main] 4176 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 11:47:54:130][           main] 4176 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 3789 ms
+[2025-02-05 11:47:54:143][           main] 4176 ERROR com.zaxxer.hikari.HikariConfig                     : Failed to load driver class oracle.jdbc.OracleDriver from HikariConfig class classloader jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc
+[2025-02-05 11:47:54:146][           main] 4176 ERROR o.s.b.w.e.tomcat.TomcatStarter                     : Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'dataSource' defined in class path resource [com/ubintis/boot/connect/dbms/config/DbmsPropertyConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+[2025-02-05 11:47:54:173][           main] 4176 WARN  AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+[2025-02-05 11:47:54:183][           main] 4176 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2025-02-05 11:47:54:212][           main] 4176 ERROR o.s.boot.SpringApplication                         : Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ubintis.boot.SocialLoginApplication.main(SocialLoginApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/ubintis/boot/connect/dbms/config/DbmsPropertyConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:98)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4940)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:264)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 68 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:491)
+	at com.ubintis.boot.connect.dbms.config.DbmsConfig.dataSource(DbmsConfig.java:65)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig.dataSource(DbmsPropertyConfig.java:57)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$b014b85b.CGLIB$dataSource$1(<generated>)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$b014b85b$$FastClassBySpringCGLIB$$7ca1f8bf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$b014b85b.dataSource(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 69 common frames omitted
+[2025-02-05 11:49:02:927][           main] 28668 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 28668 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 11:49:02:930][           main] 28668 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 11:49:05:080][           main] 28668 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 11:49:06:352][           main] 28668 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 3192 ms
+[2025-02-05 11:49:06:361][           main] 28668 ERROR com.zaxxer.hikari.HikariConfig                     : Failed to load driver class oracle.jdbc.OracleDriver from HikariConfig class classloader jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc
+[2025-02-05 11:49:06:364][           main] 28668 ERROR o.s.b.w.e.tomcat.TomcatStarter                     : Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'dataSource' defined in class path resource [com/ubintis/boot/connect/dbms/config/DbmsPropertyConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+[2025-02-05 11:49:06:384][           main] 28668 WARN  AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+[2025-02-05 11:49:06:392][           main] 28668 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2025-02-05 11:49:06:409][           main] 28668 ERROR o.s.boot.SpringApplication                         : Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ubintis.boot.SocialLoginApplication.main(SocialLoginApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/ubintis/boot/connect/dbms/config/DbmsPropertyConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:98)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4940)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 66 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:491)
+	at com.ubintis.boot.connect.dbms.config.DbmsConfig.dataSource(DbmsConfig.java:65)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig.dataSource(DbmsPropertyConfig.java:57)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$b38f22f0.CGLIB$dataSource$1(<generated>)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$b38f22f0$$FastClassBySpringCGLIB$$29f14b74.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$b38f22f0.dataSource(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 67 common frames omitted
+[2025-02-05 11:51:14:216][           main] 13132 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 13132 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 11:51:14:221][           main] 13132 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 11:51:19:094][           main] 13132 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 11:51:20:426][           main] 13132 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 4732 ms
+[2025-02-05 11:51:20:437][           main] 13132 ERROR com.zaxxer.hikari.HikariConfig                     : Failed to load driver class oracle.jdbc.OracleDriver from HikariConfig class classloader jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc
+[2025-02-05 11:51:20:439][           main] 13132 ERROR o.s.b.w.e.tomcat.TomcatStarter                     : Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'dataSource' defined in class path resource [com/ubintis/boot/connect/dbms/config/DbmsPropertyConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+[2025-02-05 11:51:20:464][           main] 13132 WARN  AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+[2025-02-05 11:51:20:474][           main] 13132 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2025-02-05 11:51:20:497][           main] 13132 ERROR o.s.boot.SpringApplication                         : Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ubintis.boot.SocialLoginApplication.main(SocialLoginApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/ubintis/boot/connect/dbms/config/DbmsPropertyConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:98)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4940)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 66 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:491)
+	at com.ubintis.boot.connect.dbms.config.DbmsConfig.dataSource(DbmsConfig.java:65)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig.dataSource(DbmsPropertyConfig.java:57)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$2049d4b.CGLIB$dataSource$4(<generated>)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$2049d4b$$FastClassBySpringCGLIB$$407f64.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$2049d4b.dataSource(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 67 common frames omitted
+[2025-02-05 12:14:28:763][           main] 5632 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 5632 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 12:14:28:766][           main] 5632 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 12:14:31:746][           main] 5632 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 12:14:32:005][           main] 5632 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 3048 ms
+[2025-02-05 12:14:32:013][           main] 5632 ERROR com.zaxxer.hikari.HikariConfig                     : Failed to load driver class oracle.jdbc.OracleDriver from HikariConfig class classloader jdk.internal.loader.ClassLoaders$AppClassLoader@2437c6dc
+[2025-02-05 12:14:32:016][           main] 5632 ERROR o.s.b.w.e.tomcat.TomcatStarter                     : Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'dataSource' defined in class path resource [com/ubintis/boot/connect/dbms/config/DbmsPropertyConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+[2025-02-05 12:14:32:037][           main] 5632 WARN  AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+[2025-02-05 12:14:32:043][           main] 5632 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2025-02-05 12:14:32:060][           main] 5632 ERROR o.s.boot.SpringApplication                         : Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.ubintis.boot.SocialLoginApplication.main(SocialLoginApplication.java:11)
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	... 8 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [com/ubintis/boot/connect/dbms/config/DbmsPropertyConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:410)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:98)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4940)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1328)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1318)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	... 13 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 66 common frames omitted
+Caused by: java.lang.RuntimeException: Failed to load driver class oracle.jdbc.OracleDriver in either of HikariConfig class loader or Thread context classloader
+	at com.zaxxer.hikari.HikariConfig.setDriverClassName(HikariConfig.java:491)
+	at com.ubintis.boot.connect.dbms.config.DbmsConfig.dataSource(DbmsConfig.java:65)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig.dataSource(DbmsPropertyConfig.java:57)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$f544b04f.CGLIB$dataSource$2(<generated>)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$f544b04f$$FastClassBySpringCGLIB$$29c4403a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.ubintis.boot.connect.dbms.config.DbmsPropertyConfig$$EnhancerBySpringCGLIB$$f544b04f.dataSource(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 67 common frames omitted
+[2025-02-05 14:56:54:375][           main] 4892 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 4892 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 14:56:54:382][           main] 4892 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 14:57:03:406][           main] 4892 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 14:57:04:024][           main] 4892 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 8835 ms
+[2025-02-05 14:57:07:354][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 14:57:07:355][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 14:57:07:355][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 14:57:07:356][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-05 14:57:07:356][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 14:57:07:356][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 14:57:07:357][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-05 14:57:07:360][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-05 14:57:07:360][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-05 14:57:07:360][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-05 14:57:07:360][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-05 14:57:07:361][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-05 14:57:07:454][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-05 14:57:07:454][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 14:57:07:454][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 14:57:07:454][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 14:57:09:597][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-05 14:57:09:598][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-05 14:57:09:598][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-05 14:57:09:598][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 14:57:09:598][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 14:57:09:598][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 14:57:09:598][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-05 14:57:09:599][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-05 14:57:09:599][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 14:57:09:599][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-05 14:57:09:599][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 14:57:09:599][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 14:57:09:599][           main] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 14:57:09:601][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 14:57:09:601][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 14:57:09:602][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 14:57:09:602][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-05 14:57:09:602][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 14:57:09:624][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-05 14:57:09:638][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-05 14:57:09:638][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 14:57:09:638][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 14:57:09:638][           main] 4892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 14:57:10:415][           main] 4892 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-05 14:57:10:416][           main] 4892 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-05 14:57:10:431][           main] 4892 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 17.877 seconds (JVM running for 30.195)
+[2025-02-05 14:58:16:635][nio-8080-exec-1] 4892 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-05 14:58:16:638][nio-8080-exec-1] 4892 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 2 ms
+[2025-02-05 15:01:20:972][ionShutdownHook] 4892 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-05 15:01:20:981][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-05 15:01:20:982][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-05 15:01:20:127][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-05 15:01:20:139][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-05 15:01:20:140][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:20:140][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:01:20:140][ionShutdownHook] 4892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:01:30:943][           main] 31712 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 31712 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 15:01:30:946][           main] 31712 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 15:01:34:592][           main] 31712 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 15:01:34:918][           main] 31712 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 3732 ms
+[2025-02-05 15:01:35:232][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:01:35:232][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:01:35:232][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:35:232][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-05 15:01:35:232][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 15:01:35:233][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:35:233][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-05 15:01:35:234][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-05 15:01:35:235][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-05 15:01:35:235][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-05 15:01:35:235][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-05 15:01:35:235][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-05 15:01:35:262][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-05 15:01:35:262][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:35:262][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:01:35:262][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:36:297][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-05 15:01:36:297][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:01:36:298][           main] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:01:36:299][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 15:01:36:299][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 15:01:36:299][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:01:36:300][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-05 15:01:36:300][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:01:36:306][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-05 15:01:36:309][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-05 15:01:36:309][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:01:36:309][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 15:01:36:309][           main] 31712 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 15:01:37:733][           main] 31712 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-05 15:01:37:739][           main] 31712 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-05 15:01:37:757][           main] 31712 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 7.514 seconds (JVM running for 11.169)
+[2025-02-05 15:04:21:583][ionShutdownHook] 31712 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-05 15:04:21:600][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:04:21:601][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:04:21:601][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:21:601][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-05 15:04:21:601][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 15:04:21:601][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:21:601][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-05 15:04:21:602][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-05 15:04:21:602][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-05 15:04:21:602][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-05 15:04:21:602][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-05 15:04:21:602][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-05 15:04:21:068][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-05 15:04:21:076][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-05 15:04:21:076][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:21:076][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:04:21:076][ionShutdownHook] 31712 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:04:34:336][           main] 24612 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 24612 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 15:04:34:344][           main] 24612 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 15:04:44:430][           main] 24612 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 15:04:44:182][           main] 24612 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 9120 ms
+[2025-02-05 15:04:47:921][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:04:47:921][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:04:47:921][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:47:921][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-05 15:04:47:921][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 15:04:47:922][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:47:922][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-05 15:04:47:924][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-05 15:04:47:924][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-05 15:04:47:924][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-05 15:04:47:924][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-05 15:04:47:924][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-05 15:04:47:992][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-05 15:04:47:992][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:47:993][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:04:47:993][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:50:401][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-05 15:04:50:401][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-05 15:04:50:401][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-05 15:04:50:401][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:50:401][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:04:50:403][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:50:403][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-05 15:04:50:403][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-05 15:04:50:403][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:50:403][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-05 15:04:50:403][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:04:50:403][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:04:50:403][           main] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:04:50:404][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 15:04:50:404][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 15:04:50:404][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:04:50:404][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-05 15:04:50:405][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:04:50:418][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-05 15:04:50:423][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-05 15:04:50:423][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:04:50:423][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 15:04:50:423][           main] 24612 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 15:04:50:212][           main] 24612 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-05 15:04:50:215][           main] 24612 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-05 15:04:50:236][           main] 24612 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 17.742 seconds (JVM running for 26.208)
+[2025-02-05 15:04:55:821][nio-8080-exec-1] 24612 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-05 15:04:55:831][nio-8080-exec-1] 24612 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 6 ms
+[2025-02-05 15:18:10:447][ionShutdownHook] 24612 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-05 15:18:10:460][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:18:10:461][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:18:10:461][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:10:461][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-05 15:18:10:461][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 15:18:10:461][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:10:462][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-05 15:18:10:462][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-05 15:18:10:462][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-05 15:18:10:462][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-05 15:18:10:462][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-05 15:18:10:462][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-05 15:18:10:491][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-05 15:18:10:501][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-05 15:18:10:501][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:10:502][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:18:10:502][ionShutdownHook] 24612 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:18:36:171][           main] 12932 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 12932 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 15:18:36:179][           main] 12932 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 15:18:47:800][           main] 12932 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 15:18:48:991][           main] 12932 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 11942 ms
+[2025-02-05 15:18:52:144][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:18:52:144][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:18:52:144][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:52:145][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-05 15:18:52:145][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 15:18:52:145][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:52:145][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-05 15:18:52:149][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-05 15:18:52:149][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-05 15:18:52:149][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-05 15:18:52:149][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-05 15:18:52:149][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-05 15:18:52:209][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-05 15:18:52:209][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:52:209][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:18:52:209][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:54:262][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-05 15:18:54:262][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-05 15:18:54:262][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-05 15:18:54:262][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:54:262][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:18:54:262][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:54:263][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-05 15:18:54:263][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-05 15:18:54:263][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:54:263][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-05 15:18:54:263][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:18:54:263][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:18:54:264][           main] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:18:54:265][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 15:18:54:265][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 15:18:54:265][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:18:54:265][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-05 15:18:54:266][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:18:54:276][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-05 15:18:54:280][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-05 15:18:54:280][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:18:54:280][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 15:18:54:280][           main] 12932 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 15:18:54:912][           main] 12932 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-05 15:18:54:914][           main] 12932 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-05 15:18:54:929][           main] 12932 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 22.13 seconds (JVM running for 33.196)
+[2025-02-05 15:20:07:528][nio-8080-exec-1] 12932 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-05 15:20:07:531][nio-8080-exec-1] 12932 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 3 ms
+[2025-02-05 15:21:42:547][ionShutdownHook] 12932 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-05 15:21:42:556][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-05 15:21:42:972][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-05 15:21:42:979][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-05 15:21:42:979][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:42:979][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:21:42:979][ionShutdownHook] 12932 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:21:49:929][           main] 32492 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 32492 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-05 15:21:49:933][           main] 32492 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-05 15:21:53:336][           main] 32492 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-05 15:21:53:670][           main] 32492 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 3515 ms
+[2025-02-05 15:21:54:909][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:21:54:909][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:21:54:909][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:54:909][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-05 15:21:54:909][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-05 15:21:54:909][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:54:910][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-05 15:21:54:911][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-05 15:21:54:911][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-05 15:21:54:911][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-05 15:21:54:911][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-05 15:21:54:911][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-05 15:21:54:939][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-05 15:21:54:939][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:54:939][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:21:54:939][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-05 15:21:55:018][           main] 32492 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-05 15:21:55:019][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 15:21:55:019][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 15:21:55:019][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:21:55:019][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-05 15:21:55:019][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:21:55:027][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-05 15:21:55:031][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-05 15:21:55:031][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-05 15:21:55:031][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-05 15:21:55:031][           main] 32492 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-05 15:21:56:453][           main] 32492 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-05 15:21:56:454][           main] 32492 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-05 15:21:56:464][           main] 32492 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 7.253 seconds (JVM running for 11.22)
+[2025-02-05 15:23:12:597][nio-8080-exec-1] 32492 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-05 15:23:12:602][nio-8080-exec-1] 32492 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 4 ms

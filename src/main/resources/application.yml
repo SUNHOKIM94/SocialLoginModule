@@ -1,0 +1,63 @@
+spring:
+  main:
+    banner-mode: off
+  thymeleaf:
+    prefix: classpath:templates/
+    suffix: .html
+    cache: false
+    view-names: sso/*,error/*
+  mvc:
+    view:
+      prefix: /WEB-INF/app/
+      suffix: .jsp
+
+server:
+  port: 8080
+  servlet:
+    context-path: /sso
+    session:
+      tracking-modes: cookie
+    jsp:
+      init-parameters:
+        development: true
+  error:
+    whitelabel:
+      enabled: false
+
+logging:
+  config: classpath:logback/logback.xml
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+log:
+  config:
+    path: ./logs
+    filename: dev-sso-server-user
+    maxHistory: 5
+    totalSizeCap: 50MB
+
+logging:
+  config: classpath:logback/logback-dev.xml
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+log:
+  config:
+    path: ./logs
+    filename: sso-server-user
+    maxHistory: 10
+    totalSizeCap: 1GB
+
+logging:
+  config: classpath:logback/logback-prod.xml
+
+passni-config-path: D:\PROJECT5\SSO5SML2\01.SRC\sso-pkg\sso-config

@@ -1,0 +1,1480 @@
+[2025-02-06 09:50:17:049][           main] 34020 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 34020 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 09:50:17:076][           main] 34020 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 09:50:38:004][           main] 34020 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 09:50:39:718][           main] 34020 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 20845 ms
+[2025-02-06 09:50:40:439][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 09:50:40:439][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:50:40:439][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:40:439][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 09:50:40:439][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 09:50:40:439][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:40:440][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 09:50:40:441][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 09:50:40:441][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 09:50:40:441][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 09:50:40:441][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 09:50:40:442][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 09:50:40:485][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 09:50:40:485][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:40:485][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:50:40:485][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:42:945][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 09:50:42:945][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 09:50:42:945][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 09:50:42:945][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:42:945][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:50:42:945][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:42:945][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 09:50:42:945][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 09:50:42:946][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:42:946][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 09:50:42:946][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:42:946][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:50:42:946][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 09:50:42:947][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 09:50:42:947][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 09:50:42:947][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 09:50:42:947][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 09:50:42:947][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 09:50:42:966][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 09:50:42:974][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 09:50:42:974][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 09:50:42:974][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 09:50:42:974][           main] 34020 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 09:50:42:440][           main] 34020 WARN  AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[2025-02-06 09:50:42:440][           main] 34020 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 09:50:42:450][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 09:50:42:450][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:50:42:450][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:42:450][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 09:50:42:450][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 09:50:42:450][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:42:451][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 09:50:42:451][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 09:50:42:451][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 09:50:42:451][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 09:50:42:451][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 09:50:42:451][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 09:50:43:908][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 09:50:43:915][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 09:50:43:915][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:50:43:915][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:50:43:915][           main] 34020 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 09:50:43:955][           main] 34020 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2025-02-06 09:50:43:971][           main] 34020 ERROR o.s.b.d.LoggingFailureAnalysisReporter             : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[2025-02-06 09:51:10:958][           main] 36860 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 36860 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 09:51:10:962][           main] 36860 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 09:51:14:869][           main] 36860 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 09:51:15:238][           main] 36860 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 4004 ms
+[2025-02-06 09:51:16:398][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 09:51:16:399][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:51:16:399][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:51:16:399][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 09:51:16:399][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 09:51:16:399][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:51:16:399][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 09:51:16:400][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 09:51:16:400][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 09:51:16:400][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 09:51:16:400][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 09:51:16:400][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 09:51:16:444][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 09:51:16:445][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:51:16:445][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:51:16:445][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:51:17:483][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 09:51:17:484][           main] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 09:51:17:485][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 09:51:17:485][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 09:51:17:485][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 09:51:17:485][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 09:51:17:485][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 09:51:17:493][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 09:51:17:496][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 09:51:17:496][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 09:51:17:496][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 09:51:17:496][           main] 36860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 09:51:17:860][           main] 36860 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 09:51:17:861][           main] 36860 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 09:51:17:871][           main] 36860 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 7.645 seconds (JVM running for 13.012)
+[2025-02-06 10:20:25:301][nio-8080-exec-1] 36860 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 10:20:25:307][nio-8080-exec-1] 36860 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 5 ms
+[2025-02-06 10:33:19:222][ionShutdownHook] 36860 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 10:33:19:263][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:33:19:264][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:33:19:265][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:19:265][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 10:33:19:265][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:33:19:265][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:19:266][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 10:33:19:266][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 10:33:19:266][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 10:33:19:266][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 10:33:19:266][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 10:33:19:266][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 10:33:19:551][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 10:33:19:569][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 10:33:19:569][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:19:570][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:33:19:570][ionShutdownHook] 36860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:33:46:128][           main] 34352 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 34352 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 10:33:46:135][           main] 34352 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 10:33:52:368][           main] 34352 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 10:33:53:901][           main] 34352 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 6189 ms
+[2025-02-06 10:33:56:905][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:33:56:905][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:33:56:906][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:56:906][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 10:33:56:906][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:33:56:906][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:56:907][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 10:33:56:910][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 10:33:56:910][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 10:33:56:911][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 10:33:56:911][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 10:33:56:912][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 10:33:56:999][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 10:33:56:000][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:56:000][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:33:56:000][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:58:299][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 10:33:58:299][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 10:33:58:299][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 10:33:58:299][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:58:299][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:33:58:299][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:58:300][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 10:33:58:300][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 10:33:58:300][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:58:300][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 10:33:58:300][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:33:58:300][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:33:58:301][           main] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:33:58:302][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:33:58:303][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:33:58:303][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:33:58:303][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 10:33:58:303][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:33:58:315][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 10:33:58:320][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 10:33:58:320][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:33:58:320][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:33:58:320][           main] 34352 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:33:59:033][           main] 34352 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 10:33:59:036][           main] 34352 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 10:33:59:053][           main] 34352 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 14.6 seconds (JVM running for 24.669)
+[2025-02-06 10:38:25:876][ionShutdownHook] 34352 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 10:38:25:891][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:38:25:891][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:38:25:891][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:38:25:891][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 10:38:25:891][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:38:25:891][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:38:25:892][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 10:38:25:892][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 10:38:25:892][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 10:38:25:892][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 10:38:25:893][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 10:38:25:893][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 10:38:25:255][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 10:38:25:262][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 10:38:25:262][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:38:25:262][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:38:25:262][ionShutdownHook] 34352 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:38:48:676][           main] 37324 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 37324 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 10:38:48:684][           main] 37324 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 10:38:55:001][           main] 37324 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 10:38:57:067][           main] 37324 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 8663 ms
+[2025-02-06 10:39:00:482][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:39:00:482][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:39:00:483][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:39:00:483][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 10:39:00:483][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:39:00:483][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:39:00:483][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 10:39:00:485][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 10:39:00:485][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 10:39:00:485][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 10:39:00:485][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 10:39:00:485][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 10:39:00:532][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 10:39:00:533][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:39:00:533][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:39:00:533][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:39:01:126][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 10:39:01:127][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 10:39:01:127][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 10:39:01:127][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:39:01:127][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:39:01:127][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:39:01:127][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 10:39:01:128][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 10:39:01:128][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:39:01:128][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 10:39:01:128][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:39:01:128][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:39:01:128][           main] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:39:01:130][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:39:01:131][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:39:01:131][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:39:01:131][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 10:39:01:131][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:39:01:142][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 10:39:01:146][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 10:39:01:147][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:39:01:147][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:39:01:147][           main] 37324 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:39:02:807][           main] 37324 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 10:39:02:809][           main] 37324 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 10:39:02:825][           main] 37324 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 15.532 seconds (JVM running for 24.362)
+[2025-02-06 10:39:11:994][nio-8080-exec-1] 37324 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 10:39:11:001][nio-8080-exec-1] 37324 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 5 ms
+[2025-02-06 10:41:49:765][ionShutdownHook] 37324 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 10:41:49:776][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:41:49:776][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:41:49:776][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:41:49:776][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 10:41:49:776][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:41:49:776][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:41:49:777][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 10:41:49:777][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 10:41:49:777][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 10:41:49:777][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 10:41:49:777][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 10:41:49:777][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 10:41:49:000][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 10:41:49:016][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 10:41:49:017][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:41:49:017][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:41:49:017][ionShutdownHook] 37324 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:42:20:758][           main] 2976 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 2976 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 10:42:20:768][           main] 2976 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 10:42:30:679][           main] 2976 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 10:42:31:446][           main] 2976 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 9984 ms
+[2025-02-06 10:42:33:643][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:42:33:643][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:42:33:643][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:42:33:644][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 10:42:33:644][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:42:33:644][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:42:33:644][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 10:42:33:646][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 10:42:33:646][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 10:42:33:646][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 10:42:33:646][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 10:42:33:646][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 10:42:33:694][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 10:42:33:694][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:42:33:694][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:42:33:694][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:42:35:549][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:42:35:550][           main] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:42:35:551][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:42:35:552][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:42:35:552][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:42:35:552][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 10:42:35:552][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:42:35:562][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 10:42:35:570][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 10:42:35:570][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:42:35:570][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:42:35:570][           main] 2976 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:42:35:151][           main] 2976 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 10:42:35:153][           main] 2976 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 10:42:35:167][           main] 2976 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 16.934 seconds (JVM running for 25.271)
+[2025-02-06 10:42:56:751][nio-8080-exec-1] 2976 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 10:42:56:753][nio-8080-exec-1] 2976 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 1 ms
+[2025-02-06 10:44:59:387][ionShutdownHook] 2976 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 10:44:59:397][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 10:44:59:520][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 10:44:59:525][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 10:44:59:525][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:44:59:525][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:44:59:525][ionShutdownHook] 2976 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:45:08:896][           main] 34512 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 34512 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 10:45:08:901][           main] 34512 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 10:45:12:329][           main] 34512 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 10:45:13:898][           main] 34512 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 4699 ms
+[2025-02-06 10:45:14:273][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:45:14:273][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:45:14:273][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:45:14:273][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 10:45:14:273][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:45:14:273][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:45:14:273][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 10:45:14:274][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 10:45:14:275][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 10:45:14:275][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 10:45:14:275][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 10:45:14:275][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 10:45:14:301][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 10:45:14:301][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:45:14:301][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:45:14:301][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:45:16:408][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 10:45:16:408][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 10:45:16:408][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 10:45:16:408][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:45:16:409][           main] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:45:16:410][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:45:16:410][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:45:16:410][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:45:16:410][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 10:45:16:410][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:45:16:417][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 10:45:16:421][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 10:45:16:422][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:45:16:422][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:45:16:422][           main] 34512 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:45:16:829][           main] 34512 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 10:45:16:831][           main] 34512 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 10:45:16:840][           main] 34512 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 8.66 seconds (JVM running for 13.749)
+[2025-02-06 10:45:39:751][nio-8080-exec-1] 34512 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 10:45:39:754][nio-8080-exec-1] 34512 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 2 ms
+[2025-02-06 10:50:20:699][ionShutdownHook] 34512 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 10:50:20:712][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:50:20:713][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:50:20:713][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:20:713][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 10:50:20:713][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:50:20:713][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:20:713][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 10:50:20:713][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 10:50:20:713][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 10:50:20:714][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 10:50:20:714][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 10:50:20:714][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 10:50:20:085][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 10:50:20:092][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 10:50:20:093][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:20:093][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:50:20:093][ionShutdownHook] 34512 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:50:39:298][           main] 20968 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 20968 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 10:50:39:305][           main] 20968 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 10:50:45:576][           main] 20968 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 10:50:46:150][           main] 20968 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 6443 ms
+[2025-02-06 10:50:49:368][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:50:49:368][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:50:49:368][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:49:368][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 10:50:49:369][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:50:49:369][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:49:369][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 10:50:49:371][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 10:50:49:371][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 10:50:49:371][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 10:50:49:371][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 10:50:49:371][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 10:50:49:419][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 10:50:49:420][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:49:420][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:50:49:420][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:51:115][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 10:50:51:116][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 10:50:51:116][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 10:50:51:117][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:51:117][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:50:51:117][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:51:117][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 10:50:51:117][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 10:50:51:117][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:51:117][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 10:50:51:118][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:50:51:118][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:50:51:118][           main] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:50:51:120][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:50:51:120][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:50:51:120][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:50:51:120][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 10:50:51:120][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:50:51:131][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 10:50:51:135][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 10:50:51:135][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:50:51:135][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:50:51:136][           main] 20968 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:50:51:820][           main] 20968 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 10:50:51:822][           main] 20968 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 10:50:51:837][           main] 20968 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 13.59 seconds (JVM running for 20.561)
+[2025-02-06 10:51:36:175][nio-8080-exec-1] 20968 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 10:51:36:177][nio-8080-exec-1] 20968 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 2 ms
+[2025-02-06 10:53:03:357][ionShutdownHook] 20968 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 10:53:03:382][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:53:03:383][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:53:03:383][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:03:383][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 10:53:03:384][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:53:03:384][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:03:384][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 10:53:03:385][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 10:53:03:385][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 10:53:03:385][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 10:53:03:385][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 10:53:03:385][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 10:53:03:893][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 10:53:03:923][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 10:53:03:923][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:03:923][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:53:03:924][ionShutdownHook] 20968 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:53:15:909][           main] 22988 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 22988 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 10:53:15:913][           main] 22988 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 10:53:19:802][           main] 22988 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 10:53:19:263][           main] 22988 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 4113 ms
+[2025-02-06 10:53:21:639][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:53:21:640][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:53:21:640][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:21:640][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 10:53:21:640][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 10:53:21:640][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:21:640][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 10:53:21:640][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 10:53:21:641][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 10:53:21:641][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 10:53:21:641][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 10:53:21:641][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 10:53:21:668][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 10:53:21:668][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:21:668][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:53:21:668][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 10:53:22:860][           main] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 10:53:22:861][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:53:22:861][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:53:22:861][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:53:22:861][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 10:53:22:861][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:53:22:869][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 10:53:22:873][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 10:53:22:873][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 10:53:22:873][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 10:53:22:873][           main] 22988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 10:53:22:364][           main] 22988 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 10:53:22:366][           main] 22988 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 10:53:22:377][           main] 22988 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 8.155 seconds (JVM running for 12.13)
+[2025-02-06 11:04:01:988][nio-8080-exec-1] 22988 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 11:04:01:990][nio-8080-exec-1] 22988 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 1 ms
+[2025-02-06 11:08:46:058][ionShutdownHook] 22988 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 11:08:46:089][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:08:46:089][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:08:46:090][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:08:46:090][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 11:08:46:091][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:08:46:091][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:08:46:092][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 11:08:46:092][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 11:08:46:093][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 11:08:46:093][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 11:08:46:094][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 11:08:46:094][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 11:08:47:539][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 11:08:47:568][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 11:08:47:569][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:08:47:569][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:08:47:570][ionShutdownHook] 22988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:09:12:237][           main] 25404 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 25404 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 11:09:12:249][           main] 25404 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 11:09:20:341][           main] 25404 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 11:09:20:100][           main] 25404 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 7976 ms
+[2025-02-06 11:09:22:107][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:09:22:107][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:09:22:107][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:09:22:107][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 11:09:22:107][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:09:22:107][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:09:22:108][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 11:09:22:109][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 11:09:22:109][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 11:09:22:109][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 11:09:22:110][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 11:09:22:110][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 11:09:23:151][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 11:09:23:152][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:09:23:152][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:09:23:152][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:09:24:469][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 11:09:24:469][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 11:09:24:469][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 11:09:24:469][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:09:24:469][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:09:24:469][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:09:24:469][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 11:09:24:470][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 11:09:24:470][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:09:24:470][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 11:09:24:470][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:09:24:470][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:09:24:470][           main] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:09:24:471][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:09:24:471][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:09:24:472][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:09:24:472][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 11:09:24:472][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:09:24:481][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 11:09:24:485][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 11:09:24:485][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:09:24:485][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:09:24:485][           main] 25404 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:09:24:029][           main] 25404 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 11:09:24:030][           main] 25404 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 11:09:24:043][           main] 25404 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 14.678 seconds (JVM running for 24.398)
+[2025-02-06 11:11:46:856][ionShutdownHook] 25404 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 11:11:46:868][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 11:11:46:869][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 11:11:46:870][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 11:11:46:870][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 11:11:47:242][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 11:11:47:251][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 11:11:47:251][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:11:47:251][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:11:47:251][ionShutdownHook] 25404 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:12:02:343][           main] 34772 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 34772 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 11:12:02:348][           main] 34772 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 11:12:07:078][           main] 34772 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 11:12:08:529][           main] 34772 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 4829 ms
+[2025-02-06 11:12:09:972][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:12:09:973][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:12:09:973][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:12:09:973][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 11:12:09:973][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:12:09:973][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:12:09:973][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 11:12:09:974][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 11:12:09:974][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 11:12:09:975][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 11:12:09:975][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 11:12:09:975][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 11:12:09:012][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 11:12:09:012][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:12:09:012][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:12:09:012][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:12:10:221][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 11:12:10:221][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 11:12:10:221][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 11:12:10:221][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:12:10:221][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:12:10:221][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:12:10:221][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 11:12:10:222][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 11:12:10:222][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:12:10:222][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 11:12:10:222][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:12:10:222][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:12:10:222][           main] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:12:10:223][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:12:10:223][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:12:10:223][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:12:10:223][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 11:12:10:223][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:12:10:232][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 11:12:10:235][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 11:12:10:235][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:12:10:235][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:12:10:235][           main] 34772 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:12:11:801][           main] 34772 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 11:12:11:802][           main] 34772 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 11:12:11:817][           main] 34772 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 9.557 seconds (JVM running for 15.841)
+[2025-02-06 11:12:19:477][nio-8080-exec-1] 34772 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 11:12:19:484][nio-8080-exec-1] 34772 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 5 ms
+[2025-02-06 11:16:30:992][ionShutdownHook] 34772 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 11:16:30:008][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:16:30:009][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:16:30:009][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:30:009][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 11:16:30:009][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:16:30:009][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:30:010][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 11:16:30:010][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 11:16:30:010][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 11:16:30:010][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 11:16:30:010][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 11:16:30:011][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 11:16:30:260][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 11:16:30:289][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 11:16:30:289][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:30:290][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:16:30:290][ionShutdownHook] 34772 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:16:47:354][           main] 24132 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 24132 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 11:16:47:359][           main] 24132 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 11:16:52:771][           main] 24132 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 11:16:53:329][           main] 24132 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 5599 ms
+[2025-02-06 11:16:54:879][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:16:54:880][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:16:54:880][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:54:880][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 11:16:54:880][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:16:54:880][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:54:880][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 11:16:54:882][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 11:16:54:882][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 11:16:54:882][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 11:16:54:882][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 11:16:54:882][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 11:16:54:922][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 11:16:54:922][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:54:922][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:16:54:922][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:56:392][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:16:56:393][           main] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:16:56:395][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:16:56:395][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:16:56:395][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:16:56:395][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 11:16:56:395][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:16:56:404][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 11:16:56:407][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 11:16:56:407][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:16:56:407][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:16:56:407][           main] 24132 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:16:56:932][           main] 24132 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 11:16:56:934][           main] 24132 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 11:16:56:946][           main] 24132 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 10.629 seconds (JVM running for 16.764)
+[2025-02-06 11:17:28:788][nio-8080-exec-1] 24132 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 11:17:28:790][nio-8080-exec-1] 24132 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 1 ms
+[2025-02-06 11:21:48:567][ionShutdownHook] 24132 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 11:21:48:588][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:21:48:588][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 11:21:48:590][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 11:21:48:829][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 11:21:48:837][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 11:21:48:837][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:21:48:838][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:21:48:838][ionShutdownHook] 24132 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:22:08:869][           main] 37384 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 37384 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 11:22:08:878][           main] 37384 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 11:22:27:343][           main] 37384 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 11:22:28:810][           main] 37384 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 19054 ms
+[2025-02-06 11:22:31:978][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:22:31:978][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:22:31:978][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:22:31:979][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 11:22:31:979][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:22:31:979][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:22:31:979][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 11:22:31:981][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 11:22:31:982][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 11:22:31:983][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 11:22:31:985][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 11:22:31:985][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 11:22:32:066][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 11:22:32:067][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:22:32:067][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:22:32:067][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:22:34:168][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 11:22:34:168][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 11:22:34:168][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 11:22:34:168][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:22:34:168][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:22:34:168][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:22:34:168][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 11:22:34:168][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 11:22:34:169][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:22:34:169][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 11:22:34:169][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:22:34:169][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:22:34:169][           main] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:22:34:171][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:22:34:171][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:22:34:171][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:22:34:171][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 11:22:34:171][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:22:34:182][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 11:22:34:188][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 11:22:34:188][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:22:34:188][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:22:34:188][           main] 37384 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:22:35:018][           main] 37384 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 11:22:35:020][           main] 37384 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 11:22:35:036][           main] 37384 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 27.719 seconds (JVM running for 38.959)
+[2025-02-06 11:22:52:333][nio-8080-exec-1] 37384 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 11:22:52:335][nio-8080-exec-1] 37384 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 1 ms
+[2025-02-06 11:25:33:654][ionShutdownHook] 37384 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 11:25:33:666][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:25:33:666][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:25:33:666][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:25:33:666][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 11:25:33:666][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:25:33:666][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:25:33:667][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 11:25:33:667][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 11:25:33:667][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 11:25:33:667][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 11:25:33:667][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 11:25:33:667][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 11:25:34:168][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 11:25:34:174][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 11:25:34:175][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:25:34:175][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:25:34:175][ionShutdownHook] 37384 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:25:43:118][           main] 36144 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 36144 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 11:25:43:122][           main] 36144 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 11:25:51:517][           main] 36144 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 11:25:53:575][           main] 36144 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 10071 ms
+[2025-02-06 11:25:58:175][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:25:58:177][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:25:58:178][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:25:58:178][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 11:25:58:178][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:25:58:178][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:25:58:178][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 11:25:58:181][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 11:25:58:181][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 11:25:58:181][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 11:25:58:182][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 11:25:58:182][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 11:25:58:249][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 11:25:58:249][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:25:58:250][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:25:58:250][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:26:02:722][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 11:26:02:722][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 11:26:02:722][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 11:26:02:722][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:26:02:723][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:26:02:723][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:26:02:723][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 11:26:02:723][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 11:26:02:724][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:26:02:724][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 11:26:02:724][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:26:02:724][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:26:02:724][           main] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:26:02:726][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:26:02:726][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:26:02:727][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:26:02:727][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 11:26:02:727][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:26:02:739][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 11:26:02:749][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 11:26:02:750][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:26:02:750][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:26:02:750][           main] 36144 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:26:03:062][           main] 36144 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 11:26:03:067][           main] 36144 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 11:26:03:108][           main] 36144 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 20.901 seconds (JVM running for 24.765)
+[2025-02-06 11:29:11:316][ionShutdownHook] 36144 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 11:29:11:329][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:29:11:329][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:29:11:329][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:11:330][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 11:29:11:330][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:29:11:330][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:11:330][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 11:29:11:330][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 11:29:11:331][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 11:29:11:331][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 11:29:11:331][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 11:29:11:331][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 11:29:12:787][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 11:29:12:796][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 11:29:12:797][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:12:797][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:29:12:797][ionShutdownHook] 36144 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:29:27:648][           main] 9892 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 9892 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 11:29:27:655][           main] 9892 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 11:29:36:022][           main] 9892 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 11:29:37:527][           main] 9892 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 9416 ms
+[2025-02-06 11:29:39:221][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:29:39:221][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:29:39:221][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:39:222][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 11:29:39:222][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:29:39:222][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:39:222][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 11:29:39:223][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 11:29:39:223][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 11:29:39:224][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 11:29:39:224][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 11:29:39:224][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 11:29:39:256][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 11:29:39:256][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:39:256][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:29:39:256][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:40:624][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 11:29:40:624][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 11:29:40:624][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:29:40:625][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:29:40:626][           main] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:29:40:627][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:29:40:627][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:29:40:627][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:29:40:628][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 11:29:40:628][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:29:40:639][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 11:29:40:643][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 11:29:40:643][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:29:40:643][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:29:40:643][           main] 9892 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:29:41:189][           main] 9892 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 11:29:41:191][           main] 9892 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 11:29:41:203][           main] 9892 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 14.848 seconds (JVM running for 26.387)
+[2025-02-06 11:29:48:019][nio-8080-exec-1] 9892 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 11:29:48:021][nio-8080-exec-1] 9892 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 1 ms
+[2025-02-06 11:30:36:403][ionShutdownHook] 9892 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 11:30:36:414][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 11:30:36:415][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 11:30:36:860][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 11:30:36:867][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 11:30:36:867][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:30:36:867][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:30:36:867][ionShutdownHook] 9892 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:30:57:675][           main] 4988 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 4988 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 11:30:57:681][           main] 4988 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 11:31:02:062][           main] 4988 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 11:31:03:481][           main] 4988 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 5314 ms
+[2025-02-06 11:31:04:894][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:31:04:894][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:31:04:894][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:31:04:894][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 11:31:04:894][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:31:04:894][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:31:04:894][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 11:31:04:895][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 11:31:04:896][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 11:31:04:896][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 11:31:04:896][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 11:31:04:896][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 11:31:04:935][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 11:31:04:935][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:31:04:935][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:31:04:935][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:31:06:349][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 11:31:06:349][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 11:31:06:349][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 11:31:06:349][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:31:06:349][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:31:06:349][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:31:06:349][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 11:31:06:349][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 11:31:06:350][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:31:06:350][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 11:31:06:350][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:31:06:350][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:31:06:350][           main] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:31:06:351][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:31:06:351][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:31:06:351][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:31:06:351][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 11:31:06:351][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:31:06:361][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 11:31:06:364][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 11:31:06:364][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 11:31:06:364][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 11:31:06:364][           main] 4988 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 11:31:06:970][           main] 4988 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 11:31:06:972][           main] 4988 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 11:31:06:989][           main] 4988 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 10.667 seconds (JVM running for 18.298)
+[2025-02-06 11:31:10:556][nio-8080-exec-1] 4988 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 11:31:10:562][nio-8080-exec-1] 4988 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 4 ms
+[2025-02-06 11:38:03:433][ionShutdownHook] 4988 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 11:38:03:443][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 11:38:03:444][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 11:38:03:592][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 11:38:03:602][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 11:38:03:602][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 11:38:03:603][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 11:38:03:603][ionShutdownHook] 4988 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 13:08:44:536][           main] 37092 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 37092 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 13:08:44:543][           main] 37092 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 13:08:59:945][           main] 37092 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 13:09:00:584][           main] 37092 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 15416 ms
+[2025-02-06 13:09:02:960][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 13:09:02:961][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:09:02:961][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:09:02:961][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 13:09:02:961][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 13:09:02:961][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:09:02:961][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 13:09:02:963][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 13:09:02:963][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 13:09:02:963][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 13:09:02:963][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 13:09:02:963][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 13:09:02:007][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 13:09:02:008][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:09:02:008][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:09:02:008][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:09:04:372][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 13:09:04:372][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 13:09:04:372][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:09:04:373][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:09:04:374][           main] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 13:09:04:375][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 13:09:04:375][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 13:09:04:375][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 13:09:04:375][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 13:09:04:376][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 13:09:04:386][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 13:09:04:390][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 13:09:04:390][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 13:09:04:390][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 13:09:04:390][           main] 37092 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 13:09:04:970][           main] 37092 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 13:09:04:972][           main] 37092 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 13:09:04:987][           main] 37092 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 21.691 seconds (JVM running for 34.554)
+[2025-02-06 13:09:13:828][nio-8080-exec-1] 37092 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 13:09:13:831][nio-8080-exec-1] 37092 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 2 ms
+[2025-02-06 13:09:58:492][nio-8080-exec-3] 37092 ERROR c.u.boot.sso.com.audit.AuditManager                : opertor_id value is null
+java.lang.NullPointerException: opertor_id value is null
+	at com.ubintis.boot.common.util.Preconditions.checkNullOrEmpty(Preconditions.java:18)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO.<init>(AuditUserOpertVO.java:48)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO.<init>(AuditUserOpertVO.java:20)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO$AuditUserOpertVOBuilder.build(AuditUserOpertVO.java:39)
+	at com.ubintis.boot.sso.com.audit.AuditManager.setUserOpertLog(AuditManager.java:262)
+	at com.ubintis.boot.app.social.login.controller.SocialLoginController.auth(SocialLoginController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ubintis.boot.filter.xframe.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.navercorp.lucy.security.xss.servletfilter.XssEscapeServletFilter.doFilter(XssEscapeServletFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2025-02-06 13:11:11:684][ionShutdownHook] 37092 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 13:11:11:698][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 13:11:11:698][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:11:11:698][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:11:698][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 13:11:11:698][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 13:11:11:698][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:11:698][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 13:11:11:698][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 13:11:11:699][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 13:11:11:699][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 13:11:11:699][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 13:11:11:699][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 13:11:11:132][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 13:11:11:138][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 13:11:11:138][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:11:139][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:11:11:139][ionShutdownHook] 37092 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 13:11:31:848][           main] 18860 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 18860 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 13:11:31:856][           main] 18860 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 13:11:36:026][           main] 18860 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 13:11:37:441][           main] 18860 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 5006 ms
+[2025-02-06 13:11:38:864][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 13:11:38:865][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:11:38:865][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:38:865][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 13:11:38:865][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 13:11:38:865][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:38:865][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 13:11:38:866][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 13:11:38:867][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 13:11:38:867][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 13:11:38:867][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 13:11:38:867][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 13:11:38:902][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 13:11:38:902][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:38:902][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:11:38:902][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:40:216][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 13:11:40:216][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:11:40:217][           main] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 13:11:40:218][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 13:11:40:218][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 13:11:40:219][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 13:11:40:219][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 13:11:40:219][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 13:11:40:229][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 13:11:40:233][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 13:11:40:233][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 13:11:40:233][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 13:11:40:233][           main] 18860 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 13:11:40:780][           main] 18860 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat started on port(s): 8080 (http) with context path '/sso'
+[2025-02-06 13:11:40:782][           main] 18860 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Starting Quartz Scheduler now
+[2025-02-06 13:11:40:798][           main] 18860 INFO  c.u.boot.SocialLoginApplication                    : Started SocialLoginApplication in 10.441 seconds (JVM running for 21.109)
+[2025-02-06 13:11:43:625][nio-8080-exec-1] 18860 INFO  o.s.web.servlet.DispatcherServlet                  : Initializing Servlet 'dispatcherServlet'
+[2025-02-06 13:11:43:631][nio-8080-exec-1] 18860 INFO  o.s.web.servlet.DispatcherServlet                  : Completed initialization in 4 ms
+[2025-02-06 13:11:53:251][nio-8080-exec-9] 18860 ERROR c.u.boot.sso.com.audit.AuditManager                : opertor_id value is null
+java.lang.NullPointerException: opertor_id value is null
+	at com.ubintis.boot.common.util.Preconditions.checkNullOrEmpty(Preconditions.java:18)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO.<init>(AuditUserOpertVO.java:48)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO.<init>(AuditUserOpertVO.java:20)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO$AuditUserOpertVOBuilder.build(AuditUserOpertVO.java:39)
+	at com.ubintis.boot.sso.com.audit.AuditManager.setUserOpertLog(AuditManager.java:262)
+	at com.ubintis.boot.app.social.login.controller.SocialLoginController.auth(SocialLoginController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ubintis.boot.filter.xframe.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.navercorp.lucy.security.xss.servletfilter.XssEscapeServletFilter.doFilter(XssEscapeServletFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2025-02-06 13:13:15:801][nio-8080-exec-6] 18860 ERROR c.u.boot.sso.com.audit.AuditManager                : opertor_id value is null
+java.lang.NullPointerException: opertor_id value is null
+	at com.ubintis.boot.common.util.Preconditions.checkNullOrEmpty(Preconditions.java:18)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO.<init>(AuditUserOpertVO.java:48)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO.<init>(AuditUserOpertVO.java:20)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO$AuditUserOpertVOBuilder.build(AuditUserOpertVO.java:39)
+	at com.ubintis.boot.sso.com.audit.AuditManager.setUserOpertLog(AuditManager.java:262)
+	at com.ubintis.boot.app.social.login.controller.SocialLoginController.auth(SocialLoginController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ubintis.boot.filter.xframe.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.navercorp.lucy.security.xss.servletfilter.XssEscapeServletFilter.doFilter(XssEscapeServletFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2025-02-06 13:13:30:860][nio-8080-exec-4] 18860 ERROR c.u.boot.sso.com.audit.AuditManager                : opertor_id value is null
+java.lang.NullPointerException: opertor_id value is null
+	at com.ubintis.boot.common.util.Preconditions.checkNullOrEmpty(Preconditions.java:18)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO.<init>(AuditUserOpertVO.java:48)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO.<init>(AuditUserOpertVO.java:20)
+	at com.ubintis.boot.sso.com.audit.vo.AuditUserOpertVO$AuditUserOpertVOBuilder.build(AuditUserOpertVO.java:39)
+	at com.ubintis.boot.sso.com.audit.AuditManager.setUserOpertLog(AuditManager.java:262)
+	at com.ubintis.boot.app.social.login.controller.SocialLoginController.auth(SocialLoginController.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.ubintis.boot.filter.xframe.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at com.navercorp.lucy.security.xss.servletfilter.XssEscapeServletFilter.doFilter(XssEscapeServletFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1790)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[2025-02-06 13:15:11:466][ionShutdownHook] 18860 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 13:15:11:486][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 13:15:11:486][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:15:11:487][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:15:11:487][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 13:15:11:487][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 13:15:11:487][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:15:11:487][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 13:15:11:488][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 13:15:11:488][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 13:15:11:488][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 13:15:11:488][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 13:15:11:488][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 13:15:11:937][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 13:15:11:954][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 13:15:11:954][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 13:15:11:955][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 13:15:11:955][ionShutdownHook] 18860 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 17:03:32:027][           main] 34984 INFO  c.u.boot.SocialLoginApplication                    : Starting SocialLoginApplication using Java 11 on UBINTIS-SHKIM with PID 34984 (D:\PROJECT5\socialLogin\target\classes started by UBINTIS-SHKIM in D:\PROJECT5\socialLogin)
+[2025-02-06 17:03:32:043][           main] 34984 INFO  c.u.boot.SocialLoginApplication                    : The following 1 profile is active: "prod"
+[2025-02-06 17:03:41:075][           main] 34984 INFO  o.s.b.w.e.tomcat.TomcatWebServer                   : Tomcat initialized with port(s): 8080 (http)
+[2025-02-06 17:03:42:983][           main] 34984 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     : Root WebApplicationContext: initialization completed in 8711 ms
+[2025-02-06 17:03:44:733][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 17:03:44:734][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 17:03:44:734][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:44:734][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Initialization
+[2025-02-06 17:03:44:734][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 17:03:44:734][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:44:734][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto V2.0 Initialize : Success
+[2025-02-06 17:03:44:735][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Load : Success
+[2025-02-06 17:03:44:736][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Load : Success
+[2025-02-06 17:03:44:736][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Load : Success
+[2025-02-06 17:03:44:736][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Load : Success
+[2025-02-06 17:03:44:736][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Create : Success
+[2025-02-06 17:03:45:829][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Initialize And Start : Success
+[2025-02-06 17:03:45:830][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:45:830][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 17:03:45:830][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:47:035][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Module Test : Success
+[2025-02-06 17:03:47:036][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Self Test : Success
+[2025-02-06 17:03:47:036][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni SSO Server Integrity Test : Fail
+[2025-02-06 17:03:47:036][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:47:036][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 17:03:47:036][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:47:036][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Product : Pass-Ni SSO v5.0
+[2025-02-06 17:03:47:036][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Application : Pass-Ni SSO Server v5.0.002
+[2025-02-06 17:03:47:037][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:47:037][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Initialization Success
+[2025-02-06 17:03:47:037][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:47:037][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 17:03:47:037][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 17:03:47:039][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 17:03:47:039][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 17:03:47:039][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 17:03:47:039][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### Pass-Ni SSO Server Synchronization Initialization
+[2025-02-06 17:03:47:039][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 17:03:47:050][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Connection Pool Create : Success
+[2025-02-06 17:03:47:054][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### - Scheduler Start : Success
+[2025-02-06 17:03:47:054][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ### 
+[2025-02-06 17:03:47:054][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : ######################################################################
+[2025-02-06 17:03:47:054][           main] 34984 INFO  c.u.b.s.a.m.sync.AdmSyncInitialize                 : 
+[2025-02-06 17:03:47:698][           main] 34984 WARN  AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[2025-02-06 17:03:47:698][           main] 34984 INFO  o.s.s.quartz.SchedulerFactoryBean                  : Shutting down Quartz Scheduler
+[2025-02-06 17:03:47:712][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 17:03:47:712][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 17:03:47:712][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Pass-Ni SSO Server Destroyed
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### Copyright (c) UbiNtisLab Co., Ltd. All rights reserved.
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Pass-Ni Crypto Finalize : Success
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Certificate File Unload : Success
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Crypto Config Property Unload : Success
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Mail Config Property Unload : Success
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - UserAgent Config File Unload : Success
+[2025-02-06 17:03:47:713][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - DataSource Pool Destroyed : Success
+[2025-02-06 17:03:47:757][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Scheduler Finalize : Success
+[2025-02-06 17:03:47:764][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### - Key Storage Destroyed : Success
+[2025-02-06 17:03:47:764][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ### 
+[2025-02-06 17:03:47:764][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : ######################################################################
+[2025-02-06 17:03:47:765][           main] 34984 INFO  c.ubintis.boot.sso.com.SSOInitialize               : 
+[2025-02-06 17:03:48:827][           main] 34984 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2025-02-06 17:03:48:857][           main] 34984 ERROR o.s.b.d.LoggingFailureAnalysisReporter             : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
