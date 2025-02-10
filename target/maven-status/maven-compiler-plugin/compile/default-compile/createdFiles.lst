@@ -1,0 +1,7 @@
+com\ubintis\boot\app\social\login\service\SocialLoginService.class
+com\ubintis\boot\app\social\login\controller\GoogleLoginController.class
+com\ubintis\boot\app\social\login\controller\SocialLoginController.class
+com\ubintis\boot\app\social\login\service\impl\SocialLoginServiceImpl.class
+com\ubintis\boot\app\social\field\SocialCodeField.class
+com\ubintis\boot\app\social\login\dao\SocialLoginDao.class
+com\ubintis\boot\SocialLoginApplication.class

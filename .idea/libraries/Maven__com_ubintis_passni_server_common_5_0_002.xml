@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ubintis:passni-server-common:5.0.002">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ubintis/passni-server-common/5.0.002/passni-server-common-5.0.002.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ubintis/passni-server-common/5.0.002/passni-server-common-5.0.002-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ubintis/passni-server-common/5.0.002/passni-server-common-5.0.002-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

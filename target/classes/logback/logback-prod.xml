@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter" />
+	
+	<springProperty name="LOG_PATH" source="log.config.path" defaultValue="./logs" />
+	<springProperty name="LOG_FILE_NAME" source="log.config.filename" defaultValue="sso-server" />
+	<springProperty name="LOG_MAX_HISTORY" source="log.config.maxHistory" defaultValue="10" />
+	<springProperty name="LOG_TOTAL_SIZE_CAP" source="log.config.totalSizeCap" defaultValue="1GB" />
+	
+	<property name="CONSOLE_LOG_PATTERN" value="[%d{yyyy-MM-dd HH:mm:ss}:%-3.3relative]%clr([%15.15thread]){faint} %clr(%-5level) %clr(%-50.50logger{36}){cyan} %clr(:){faint} %msg%n"/>
+	<property name="FILE_LOG_PATTERN" value="[%d{yyyy-MM-dd HH:mm:ss}:%-3.3relative][%15.15thread] ${PID:-} %-5level %-50.50logger{36} : %msg%n"/>
+	
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<layout class="ch.qos.logback.classic.PatternLayout">
+			<Pattern>${CONSOLE_LOG_PATTERN}</Pattern>
+		</layout>
+	</appender>
+	
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_PATH}/${LOG_FILE_NAME}.log</file>
+		<encoder>
+			<pattern>${FILE_LOG_PATTERN}</pattern>
+		</encoder>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${LOG_PATH}/${LOG_FILE_NAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>${LOG_MAX_HISTORY}</maxHistory>
+			<totalSizeCap>${LOG_TOTAL_SIZE_CAP}</totalSizeCap>
+		</rollingPolicy>
+	</appender>
+	
+	<appender name="FILE-ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+		<appender-ref ref="FILE" />
+		<includeCallerData>false</includeCallerData>
+		<discardingThreshold>0</discardingThreshold>
+		<queueSize>1024</queueSize>
+		<neverBlock>true</neverBlock>
+	</appender>
+	
+	<logger name="com.ubintis.boot" level="info" additivity="false">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</logger>
+	
+	<logger name="org.springframework" level="info" additivity="false">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</logger>
+	
+	<root level="error" additivity="false">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="FILE" />
+	</root>
+	
+</configuration>
